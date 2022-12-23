@@ -24,7 +24,7 @@ func NewServer() *Server {
 	s.methods = make(map[string]MethodInfo)
 
 	// Register Builtin
-	s.RegisterMethod(CancelRequest())
+	// s.RegisterMethod(CancelRequest())
 
 	return s
 }
