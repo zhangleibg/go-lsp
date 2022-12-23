@@ -9,6 +9,8 @@ import (
 	"github.com/TobiasYin/go-lsp/logs"
 )
 
+var testTag = ""
+
 type Server struct {
 	Methods
 	rpcServer *jsonrpc.Server
