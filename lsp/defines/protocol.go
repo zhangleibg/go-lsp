@@ -120,6 +120,8 @@ type _ServerCapabilities struct {
 	// @since 3.16.0
 	MonikerProvider interface{} `json:"monikerProvider,omitempty"` // bool, MonikerOptions, MonikerRegistrationOptions,
 
+	DiagnosticProvider interface{}
+
 	// Experimental server capabilities.
 	Experimental interface{} `json:"experimental,omitempty"`
 }
